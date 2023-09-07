@@ -26,8 +26,8 @@ Route::get('/task1', function (Request $request) {
         $trackName = $request->query('track');
         $currentDay = Date::now()->format('l');
         $uctTime = Date::now()->utc();
-        $githubFileUrl = "mnm";
-        $githubRepoUrl = "mnm";
+        $githubFileUrl = "https://github.com/ruxy1212/miniature-train/blob/main/routes/api.php";
+        $githubRepoUrl = "https://github.com/ruxy1212/miniature-train";
         $response = [
             'slack_name' => $slackName,
             'current_day' => $currentDay,
