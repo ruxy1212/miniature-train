@@ -25,7 +25,7 @@ Route::get('/task1', function (Request $request) {
         $slackName = $request->query('slack_name');
         $trackName = $request->query('track');
         $currentDay = Date::now()->format('l');
-        $uctTime = Date::now()->utc();
+        $uctTime = Date::now()->utc()->format('Y-m-d\TH:i:s\Z');
         $githubFileUrl = "https://github.com/ruxy1212/miniature-train/blob/main/routes/api.php";
         $githubRepoUrl = "https://github.com/ruxy1212/miniature-train";
         $response = [
@@ -37,7 +37,7 @@ Route::get('/task1', function (Request $request) {
             'github_repo_url' => $githubRepoUrl,
             'status_code' => 200
         ];
-        return response()->json($response);
+        return response()->json($response, 200, [], JSON_UNESCAPED_SLASHES);
     }else{
         return response()->json(['status_code' => 400, 'message' => 'Request parameter incomplete']);
     }
