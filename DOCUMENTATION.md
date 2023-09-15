@@ -204,7 +204,7 @@ To set up and deploy the API locally, follow these instructions:
 - Copy and create an environment file, and also generate a new application key by running the following command:
     > cp .env.example .env && php artisan key:generate
 
-- Inside the `.env`, ensure only the database credential for `DB_CONNECTION` is set to `pgsql` and the other are appropriately set (`DB_HOST`, `DB_PORT`, etc)
+- Inside the `.env`, ensure only the database credential for `DB_CONNECTION` is set to `mysql` and the other are appropriately set (`DB_HOST`, `DB_PORT`, etc)
 
 - Migrate the database using the following command:
     > php artisan migrate
