@@ -9,7 +9,7 @@
             "dest": "public/$1/$2"
         },
         {
-            "src": "^/api/([0-9]+)?$",
+            "src": "^/api/([0-9]+)",
             "dest": "/api/index.php?id=$1"
         },
         {
