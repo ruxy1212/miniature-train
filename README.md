@@ -191,4 +191,5 @@ Content-Type: application/json
 
 
 ## UML Diagram
+![UML-Person](https://github.com/ruxy1212/miniature-train/assets/85977511/aee2bed5-6d7d-4295-8fcf-49c4baa81c49)
 
