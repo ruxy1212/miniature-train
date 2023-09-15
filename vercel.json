@@ -13,7 +13,7 @@
             "dest": "/api/index.php?id=$1"
         },
         {
-            "src": "/(?!api)(.*)",
+            "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
