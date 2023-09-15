@@ -1,6 +1,6 @@
 # API Documentation
 
-This documentation provides an overview of the endpoints available for interfacing with the "Person" resource and their standard request and response formats. It also includes sample usage, known limitations, and instructions for setting up and deploying the API.
+This API documentation provides an overview of the endpoints available for interfacing with the "Person" resource and their standard request and response formats. It also includes sample usage, known limitations, and instructions for setting up and deploying the API.
 
 ## Base URL
 
