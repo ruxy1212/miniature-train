@@ -10,7 +10,7 @@
         },
         {
             "src": "/api/([0-9]+)",
-            "dest": "/api/index.php/$1"
+            "dest": "/api/index.php?$1"
         },
         {
             "src": "/(?!api)(.*)",
