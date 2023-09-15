@@ -187,6 +187,7 @@ Content-Type: application/json
 
 ## Testing
 - Postman was used to test the API.
+![ApiTest](https://github.com/ruxy1212/miniature-train/assets/85977511/15bac9fa-5ac5-4dbf-a4d4-a72b4581fd55)
 
 
 ## UML Diagram
