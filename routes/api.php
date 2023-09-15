@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PostController;
+use App\Http\Controllers\PersonController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Date;
@@ -43,3 +43,9 @@ Route::get('/task1', function (Request $request) {
     }
 });
 
+Route::post('/', [PersonController::class, 'create']);
+Route::get('/', [PersonController::class, 'index']);
+Route::get('/{id}', [PersonController::class, 'find']);
+Route::put('/{id}', [PersonController::class, 'update']);
+Route::patch('/{id}', [PersonController::class, 'update']);
+Route::delete('/{id}', [PersonController::class, 'destroy']);
