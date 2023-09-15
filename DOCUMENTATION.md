@@ -4,7 +4,7 @@ This API documentation provides an overview of the endpoints available for inter
 
 ## Base URL
 
-The base URL for all endpoints is `https://haiyrea.000webhostapp.com/api`.
+The base URL for all endpoints is `https://miniature-train.vercel.app/api`.
 
 ## Endpoints
 
@@ -192,7 +192,7 @@ Please note the following limitations and assumptions of the API:
 
 ## Setup and Deployment
 
-The API is deployed and can be assessed from `https://haiyrea.000webhostapp.com/api`
+The API is deployed and can be assessed from `https://miniature-train.vercel.app/api`
 
 To set up and deploy the API locally, follow these instructions:
 

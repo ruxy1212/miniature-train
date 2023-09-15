@@ -29,7 +29,7 @@ This application is a REST API with basic CRUD operation, built with Laravel 10,
     > php artisan serve
 
 ## Usage
-- URL: https://haiyrea.000webhostapp.com/api
+- URL: https://miniature-train.vercel.app/api
 - Detailed documentation of the API can be found here: [API Documentation](DOCUMENTATION.md)
 
 ### Add a new person.
