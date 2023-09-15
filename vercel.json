@@ -9,8 +9,8 @@
             "dest": "public/$1/$2"
         },
         {
-            "src": "^/api/([^/]+)(/.*)?$",
-            "dest": "/api/index.php?id=$1&$2"
+            "src": "^/api(/.*)?$",
+            "dest": "/api/index.php$1"
         },
         {
             "src": "/(.*)",
