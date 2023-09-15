@@ -20,7 +20,7 @@ This application is a REST API with basic CRUD operation, built with Laravel 10,
 - Copy and create an environment file, and also generate a new application key by running the following command:
     > cp .env.example .env && php artisan key:generate
 
-- Inside the `.env`, ensure only the database credential for `DB_CONNECTION` is set to `sqlite` and the other are empty (`DB_HOST`, `DB_PORT`, etc)
+- Inside the `.env`, ensure only the database credential for `DB_CONNECTION` is set to `pgsql` and the other are set appropriately (`DB_HOST`, `DB_PORT`, etc)
 
 - Migrate the database using the following command:
     > php artisan migrate
